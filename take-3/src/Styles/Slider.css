@@ -1,0 +1,43 @@
+.buying-price-container, .selling-price-container, .distance-moving-container {
+    margin: 50px 50px 80px 50px;
+    text-align: center;
+}
+
+.buying-price-container input[type="range"], 
+.selling-price-container input[type="range"],
+.distance-moving-container input[type="range"] {
+   -webkit-appearance: none;
+   appearance: none;
+    width: 40%;
+    height: 2px;
+}
+.buying-price-container input[type="range"]::-webkit-slider-thumb,
+.selling-price-container input[type="range"]::-webkit-slider-thumb,
+.distance-moving-container input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+   width: 30px; 
+   height: 30px;
+   background: #03202D;;
+   border-radius: 50%;
+   border: 2px solid white ;
+}
+
+.buying-price-container input[type ="text"],
+.selling-price-container input[type = "text"],
+.distance-moving-container input[type="text"] {
+    border-radius: 3px;
+    border: none;
+    height: 35px;
+    width: 30%;
+    margin-left: 60px;
+}
+
+.buying-price-container .inputs .slider-label, 
+.selling-price-container .inputs .slider-label,
+.distance-moving-container .inputs .slider-label  {
+   display:inline;
+   font-size: 10px;
+   position: absolute;
+   top: 180px;
+   margin-left: -20px;
+  }

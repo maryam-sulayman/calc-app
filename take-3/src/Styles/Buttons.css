@@ -1,0 +1,31 @@
+.button-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -32px;
+  }
+
+.next-button, .previous-button {
+    border: none;
+    color: white;
+    background: none;  
+    font-size: 20px;
+}
+.next-button{
+    margin-left: 650px;
+}
+.retake-survey-button {
+    border: none;
+    color: white;
+    background: none;  
+    font-weight: bold;
+    margin: -50px 0 0 15px; 
+    font-size: 20px;
+}
+.results-button {
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 15px 20px;
+    background-color: #054D6E;
+    margin: -15px 15px 15px -5px;
+}

@@ -1,0 +1,15 @@
+.property-type-container{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+.property-type-container input{
+    transform: scale(3.5);
+    margin-right: 30px;
+    margin-bottom: 40px;
+    margin-left: 10px;
+}
+.property-type-container label{
+    font-size: 20px;
+    font-weight: bold;
+}

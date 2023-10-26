@@ -1,0 +1,11 @@
+.transaction-type-container input{
+    transform: scale(3.5);
+    margin-right: 30px;
+    margin-bottom: 40px;
+    margin-left: 10px;
+}
+
+.transaction-type-container label{
+    font-size: 25px;
+    font-weight: bold;
+}

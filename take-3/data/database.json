@@ -1,0 +1,94 @@
+{
+    "TransactionType": [
+        {
+            "value": "buy",
+            "label": "Buy"
+        },
+        {
+            "value": "sell",
+            "label": "Sell"
+        },
+        {
+            "value": "buyAndSell",
+            "label": "Buy & Sell"
+        }
+    ],
+   
+   "FirstTimeBuyerQuestion": [
+    {
+           "value": "yes",
+           "label": "Yes"
+   },
+   {
+           "value": "no",
+           "label": "No"
+   }
+   ],
+   "BuyingPrice": {
+           "minimumPrice": 50000,
+           "maximumPrice": 2000000
+   },
+   
+   "PropertyType": [
+    {
+          "value": "freehold",
+          "label": "Freehold"
+         
+    }, 
+    {     "value": "leasehold",
+          "label": "Leasehold"
+
+    }
+   ],
+   "OptionalSurveys": [
+    {
+          "value": "arbicoltural",
+          "label": "Arbicoltural"
+
+   },
+   {
+          "value": "damp-and-timber",
+          "label": "Damp & Timber"
+   },
+   { 
+          "value": "no-thanks",
+          "label": "No Thanks"
+   }
+], 
+
+    "SellingPrice": {
+         "minimumPrice": 50000,
+         "maximumPrice": 2000000
+},
+    
+    "NumberOfBedrooms":[
+    {
+         "value": "one-bedroom",
+         "label": "1 bedroom"
+    },
+    {
+         "value": "two-bedrooms",
+         "label": "2 bedrooms"
+    },
+    {
+        "value": "three-bedrooms",
+        "label": "3 bedrooms"
+    },
+    {
+        "value": "four-bedrooms",
+        "label": "4 bedrooms"
+    },
+    {
+        "value": "five-bedrooms",
+        "label": "5 bedrooms"
+    },
+    {
+        "value": "six-bedrooms",
+        "label": "6+ bedrooms"
+    }
+], 
+        "DistanceMoving": {
+            "start": 0,
+            "finish": 500
+}
+}

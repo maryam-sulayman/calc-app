@@ -1,0 +1,50 @@
+.results-container{
+    padding: 20px;
+}
+
+.results-container .heading{
+    display: flex;
+    justify-content: center;
+    margin-bottom: -25px;
+    margin-top: 10px;
+}
+.results-container .heading h3 {
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.results-container h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.results-container h3{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.results-container .estimated-costs{
+    margin-top: 25px;
+}
+.results-container .estimated-costs a{
+    font-size: 15px;
+    color: white;
+    font-weight: 300;
+}
+.results-container .ending{
+    margin-top: 30px;
+    display: flex;
+    justify-content:right;
+    margin-bottom: 20px;
+}
+.results-container .ending input[type="text"]{
+    width: 70%;
+    margin-right: 10px;
+}
+.results-container .ending input[type="submit"]{
+    width: 25%;
+}
+.results-container .ending label{
+    font-size: 14px;
+}

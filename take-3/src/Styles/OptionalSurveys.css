@@ -1,0 +1,15 @@
+.optional-surveys-container{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+.optional-surveys-container input{
+    transform: scale(3.5);
+    margin-right: 30px;
+    margin-bottom: 40px;
+    margin-left: 10px;
+}
+.optional-surveys-container label{
+    font-size: 20px;
+    font-weight: bold;
+}
